@@ -1,6 +1,6 @@
 import random
 t1 = tuple(range(1,49))
-t2 = tuple(range(1,19))
+t2 = tuple(range(1,7))
 # I use tuples so I can get fresh unmuted lists out of them every time
 
 def fiveNum(lt):
