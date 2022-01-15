@@ -3,12 +3,12 @@ t1 = tuple(range(1,49))
 t2 = tuple(range(1,7))
 # I use tuples so I can get fresh unmuted lists out of them every time
 
-def oneNum(lt):
+def fiveNum(lt):
    """this function gives me set of 5 random numbers, they cannot all be
 even or odd"""
    lst4 = []
    lst5 = []
-   for i in range(5):
+   for i in range(1):
       x = lt[random.randint(0,len(lt)-1)]
       lst4.append(x)
       lt.remove(x)
