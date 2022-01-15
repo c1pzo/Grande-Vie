@@ -8,7 +8,7 @@ def fiveNum(lt):
 even or odd"""
    lst4 = []
    lst5 = []
-   for i in range(1):
+   for i in range(5):
       x = lt[random.randint(0,len(lt)-1)]
       lst4.append(x)
       lt.remove(x)
@@ -23,7 +23,7 @@ def oneNum(lt1):
    """this gives me a list of five numbers which are used as lucky ball numbers,
 one per set of 5 numbers. They cannot be repited per set of five five digits combos"""
    lst6 =[]
-   for i in range(5):
+   for i in range(1):
       x = lt1[random.randint(0,len(lt1)-1)]
       lst6.append(x)
       lt1.remove(x)
